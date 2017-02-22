@@ -1,0 +1,2 @@
+# DaveCog
+Discord RedBot cog
