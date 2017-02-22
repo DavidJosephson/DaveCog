@@ -1,11 +1,11 @@
 import discord
 from discord.ext import commands
 
-class autoupdate:
+class Mycog:
     def __init__(self, bot):
         self.bot = bot
-
     @commands.command()
+
     async def autoupdate(self):
         bot.update()
 
