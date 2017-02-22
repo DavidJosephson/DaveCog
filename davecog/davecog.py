@@ -7,7 +7,7 @@ class Mycog:
     @commands.command()
 
     async def autoupdate(self):
-        self.update()
+        self.bot.update()
 
 def setup(bot):
     bot.add_cog(Mycog(bot))
