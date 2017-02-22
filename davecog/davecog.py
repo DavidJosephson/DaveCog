@@ -1,13 +1,15 @@
 import discord
 from discord.ext import commands
 
-class Mycog:
-    """My custom cog that does stuff!"""
-
+class DaveCog:
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command()
+
+    async def autoupdate(bot)
+        update()
+
     async def mycom(self):
         """This does stuff!"""
 
